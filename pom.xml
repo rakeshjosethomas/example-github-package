@@ -7,6 +7,15 @@
   <groupId>org.example</groupId>
   <artifactId>example-github-package</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>Test github package</name>
+      <url>https://maven.pkg.github.com/rakeshjosethomas/example-github-package</url>
+    </repository>
+  </distributionManagement>
 
   <properties>
     <maven.compiler.source>18</maven.compiler.source>
