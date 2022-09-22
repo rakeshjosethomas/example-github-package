@@ -3,6 +3,11 @@
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
       <option name="id" value="github" />
+      <option name="name" value="GitHub rakeshjosethomas Apache Maven Packages" />
+      <option name="url" value="https://maven.pkg.github.com/rakeshjosethomas/example-github-package" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="github" />
       <option name="name" value="github" />
       <option name="url" value="https://maven.pkg.github.com/rakeshjosethomas/test-sentry" />
     </remote-repository>
